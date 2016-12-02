@@ -558,7 +558,7 @@ textarea.form-control {
     page-break-inside: avoid; }
 
   img {
-    max-width: 100% !important; }
+    max-width: 200% !important; }
 
   @page {
     margin: 0.5cm; }
@@ -567,9 +567,6 @@ textarea.form-control {
   h3 {
     orphans: 3;
     widows: 3; }
-
-  h2,
-  h3 {
-    page-break-after: inherit; } }
+ }
 
 /*# sourceMappingURL=style.css.map */
