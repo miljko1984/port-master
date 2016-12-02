@@ -34,5 +34,5 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 
-/src/css/style.css.map
-/src/css/style.css
+/assets/css/style.css.map
+assets/css/style.css
