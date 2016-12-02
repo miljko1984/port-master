@@ -1,0 +1,8 @@
+{
+  "generator-nswebapp": {
+    "webappname": "port",
+    "bootstrap": true,
+    "jquery": true,
+    "bowerInstalled": true
+  }
+}

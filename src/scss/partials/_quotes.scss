@@ -1,0 +1,30 @@
+.quotes {
+    height: 461px;
+    background: $color-black-blue2 url(../images/quotes/photo.png); // #181B1E
+    background-size: cover;
+    img {
+      padding-top: 100px;
+    }
+    .outer {
+      display : initial;
+      p {
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        color: $color-white; // #FFFFFF
+        line-height: 1.2;
+      }
+    }
+    p {
+      font-size: 20px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      color: $color-strong-cyan;  // #00BAD2
+      line-height: 1.2;
+    }
+    .bullets {
+      img {
+        padding-top: 60px;
+      }
+    }
+}

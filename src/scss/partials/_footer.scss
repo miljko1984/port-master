@@ -1,0 +1,32 @@
+.footer {
+  background-color: $color-black-blue2; // #181B1E
+  height: 250px;
+  .social-icons {
+    padding-top: 50px;
+    a {
+      img {
+        padding-left: 25px;
+        padding-right: 25px;
+        @media only screen and (max-width: 600px) {
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+        @media only screen and (max-width: 400px) {
+          padding-left: 8px;
+          padding-right: 8px;
+        }
+      }
+    }
+  }
+  .line {
+    padding-top: 30px;
+  }
+  p {
+    padding-top: 30px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: $color-dark-gray; // #626262
+    line-height: 1.2;
+  }
+}

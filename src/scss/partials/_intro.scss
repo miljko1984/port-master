@@ -1,0 +1,48 @@
+.intro {
+  height: 800px;
+  background: $color-black-blue3 url(../images/intro/bg.png) no-repeat center center;  // #1A1E21
+  background-attachment: fixed;
+  background-size: cover;
+
+  h1 {
+    font-size: 56px;
+    color: $color-white; // #FFFFFF
+    line-height: 1.2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    @media only screen and (max-width: 991px) {
+      font-size: 40px;
+    }
+  }
+
+  .vertical-center {
+    position: relative;
+    top: 240px;
+  }
+
+  button {
+    border-radius: 3px;
+    border-color: $color-bright-red;  // #F44336
+    background-color: $color-bright-red;  // #F44336
+    font-size: 16px;
+    color: $color-white; // #FFFFFF
+    line-height: 1.2;
+    text-align: center;
+    width: 180px;
+    height: 50px;
+    position: relative;
+    top: 298px;
+    @media only screen and (max-width: 991px) {
+      font-size: 14px;
+      width: 160px;
+      height: 40px;
+    }
+  }
+
+  .arrow {
+    width: 31px;
+    height: 16px;
+    position: relative;
+    top: 486px;
+  }
+}

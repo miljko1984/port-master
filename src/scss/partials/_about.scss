@@ -1,0 +1,31 @@
+.about {
+    background-color: $color-gray95; // #F2F2F2
+    //height: 650px;
+    h3 {
+        padding-top: 52px;
+        padding-bottom: 25px;
+    }
+    p {
+        font-size: 26px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        color: $color-gray13; // #212121
+        line-height: 1.231;
+    }
+    .light-paragraph p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: $color-gray13; // #212121
+        line-height: 1.714;
+    }
+    .about-arrow {
+        padding-top: 40px;
+        padding-bottom: 80px;
+        img {
+            width: 30px;
+            height: 14px;
+
+        }
+    }
+}

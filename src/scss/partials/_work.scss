@@ -1,0 +1,147 @@
+.work {
+  //height: 1329px;
+  position: relative;
+  h3 {
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  img {
+    @media only screen and (max-width: 1199px) {
+      margin: 2px;
+    }
+  }
+  img[alt="1"] {
+    vertical-align: top;
+  }
+  img[alt="2"] {
+    vertical-align: top;
+  }
+  img[alt="3"] {
+    vertical-align: top;
+  }
+  img[alt="4"] {
+    vertical-align: top;
+  }
+  img[alt="5"] {
+    vertical-align: top;
+    @media only screen and (max-width: 1199px) {
+      position: relative;
+      left: 0;
+      top: 472px;
+    }
+    @media only screen and (max-width: 991px) {
+      left: 119px;
+      top: -240px;
+    }
+    //@media only screen and (max-width: 727px) {
+    //  left: -119px;
+    //  top: -239px;
+    //}
+    @media only screen and (max-width: 489px) {
+     position: static;
+    }
+  }
+  img[alt="6"] {
+    vertical-align: top;
+    @media only screen and (max-width: 1199px) {
+      position: relative;
+      top: 473px;
+      left: 0;
+    }
+    @media only screen and (max-width: 991px) {
+      top: 3px;
+      left: -119px;
+    }
+    @media only screen and (max-width: 727px) {
+      top: -237px;
+      left: 0;
+    }
+    @media only screen and (max-width: 489px) {
+      position: static;
+    }
+  }
+  img[alt="7"] {
+    vertical-align: top;
+    position: relative;
+    bottom: 713px;
+    right: 239px;
+    @media only screen and (max-width: 991px) {
+      top: 5px;
+      left: 0;
+    }
+    @media only screen and (max-width: 727px) {
+      top: -235px;
+    }
+    @media only screen and (max-width: 489px) {
+      position: static;
+    }
+  }
+  img[alt="8"] {
+    vertical-align: top;
+    position: relative;
+    bottom: 706px;
+    left: 237px;
+    @media only screen and (max-width: 991px) {
+      top: 5px;
+      left: 0;
+    }
+    @media only screen and (max-width: 727px) {
+      top: -235px;
+    }
+    @media only screen and (max-width: 489px) {
+      position: static;
+    }
+  }
+  .three-four {
+    position: relative;
+    bottom: 235px;
+    right: -236px;
+    @media only screen and (max-width: 991px) {
+      position: static;
+    }
+  }
+  .five-six {
+    position: relative;
+    bottom: 471px;
+    right: 119px;
+    @media only screen and (max-width: 1199px) {
+      bottom: 946px;
+      right: 119px;
+    }
+    @media only screen and (max-width: 991px) {
+      position: static;
+    }
+  }
+  .my-class {
+    height: 1059px;
+    @media only screen and (max-width: 991px) and (min-width: 490px) {
+      height: 1980px;
+    }
+    @media only screen and (max-width: 489px) {
+      height: 2675px;
+    }
+    @media only screen and (max-width: 488px) and (min-width: 200px) {
+      height: auto;
+    }
+    //@media only screen and (max-width: 727px) {
+    //  height: 2020px;
+    //}
+    //@media only screen and (max-width: 500px) {
+    //  height: 1990px;
+    //}
+    //@media only screen and (max-width: 489px) {
+    //  height: auto;
+    //}
+  }
+  .image {
+    @media only screen and (max-width: 500px) {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .work-arrow {
+    img {
+      padding-bottom: 80px;
+    }
+  }
+}

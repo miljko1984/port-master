@@ -1,0 +1,115 @@
+.blog {
+  //height: 768px;
+  h3 {
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  .blog-bg {
+    border: 1px solid $color-lightgray; // #E1E1E1
+    border-radius: 3px;
+    background-color: $color-white; // #FFFFFF
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+    max-width: 262px;
+    height: 311px;
+    //margin-bottom: 30px;
+    margin: 0 auto 30px;
+    .img-container {
+      text-align: left;
+      h5 {
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        color: $color-white; // #ffffff
+        line-height: 1.2;
+        position: relative;
+        bottom: 65px;
+        left: 10px;
+        display: inline-block;
+      }
+      p {
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: #B8B8B8; // #B8B8B8
+        line-height: 1.2;
+        position: relative;
+        bottom: 72px;
+        left: 10px;
+      }
+      .likes {
+        img {
+          width: 16px;
+          height: 14px;
+          position: relative;
+          bottom: 122px;
+          left: 200px;
+        }
+        p {
+          font-size: 12px;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 300;
+          color: $color-white; // #FFFFFF
+          line-height: 1.2;
+          position: relative;
+          bottom: 101px;
+          left: 183px;
+          display: inline-block;
+        }
+      }
+      .comments {
+        img {
+          width: 16px;
+          height: 14px;
+          position: relative;
+          bottom: 150px;
+          left: 231px;
+        }
+        p {
+          font-size: 12px;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 300;
+          color: $color-white; // #FFFFFF
+          line-height: 1.2;
+          position: relative;
+          bottom: 128px;
+          left: 214px;
+          display: inline-block;
+        }
+      }
+      .text-bottom {
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        color: rgba(0, 0, 0, 0.871);
+        line-height: 1.286;
+        display: inline-block;
+        position: relative;
+        bottom: 115px;
+      }
+      a {
+        text-decoration: none;
+      }
+      .read-more {
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: #80CBC4;
+        line-height: 1.286;
+        position: relative;
+        bottom: 110px;
+        left: 172px;
+        text-decoration: none;
+        &:hover {
+          color: #F44336;
+        }
+      }
+    }
+  }
+  .load {
+    padding-top: 25px;
+    padding-bottom: 100px;
+  }
+  .blog-arrow {
+    padding-bottom: 80px;
+  }
+}

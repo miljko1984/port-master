@@ -1,0 +1,18 @@
+{
+  "name": "port",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.1"
+  },
+  "devDependencies": {},
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  width: 100%;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  //border-left: 1px solid #F2F2F2;
+  //border-right: 1px solid #F2F2F2;
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1600px; /* or 950px */
+}
+
+h3 {
+  font-size: 36px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: $color-gray13; // #212121
+}
