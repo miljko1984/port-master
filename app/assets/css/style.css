@@ -569,7 +569,8 @@ textarea.form-control {
     widows: 3; }
 
   h2,
-  h3 {
+  h3,
+  h4 {
     page-break-after: avoid; } }
 
 /*# sourceMappingURL=style.css.map */
