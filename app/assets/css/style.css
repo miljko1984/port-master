@@ -570,6 +570,6 @@ textarea.form-control {
 
   h2,
   h3 {
-    page-break-after: inherit; } }
+    page-break-after: avoid; } }
 
 /*# sourceMappingURL=style.css.map */
