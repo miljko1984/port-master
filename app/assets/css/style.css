@@ -567,13 +567,10 @@ textarea.form-control {
   h3 {
     orphans: 3;
     widows: 3; }
-<<<<<<< HEAD
 
   h2,
-  h3 {
+  h3,
+  h4 {
     page-break-after: avoid; } }
-=======
- }
->>>>>>> 0e597dab2eb32f63a61f5325ba2fb5a1b9c929ae
 
 /*# sourceMappingURL=style.css.map */
